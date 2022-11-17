@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  padding: 0%;
+  margin: 0%;
+}
+body,
+input {
+  font-family: "Poppins", sans-serif;
+}
+
+.forms-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+
+.login-img{
+  position: absolute;
+  width: 50%;
+  height: 100%;
+}
+.login-img img{
+  position: absolute;
+  /* width: 100%;
+  height: 100%; */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  /* object-fit:fill; */
+  border-radius: 20px;
+
+}
+
+.signin-signup{
+  position: absolute;
+  left: 70%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  z-index: 1;
+}
+
+.title {
+  font-size: 2.2rem;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+.input-field {
+  max-width: 380px;
+  width: 100%;
+  background-color: #f0f0f0;
+  margin: 20px 0;
+  height: 55px;
+  border-radius: 55px;
+  display: grid;
+  grid-template-columns: 15% 85%;
+  padding: 0 3rem;
+  position: relative;
+}
+
+.input-field i {
+  text-align: center;
+  line-height: 55px;
+  color: #acacac;
+  transition: 0.5s;
+  font-size: 1.1rem;
+}
+
+.input-field input {
+  background: none;
+  outline: none;
+  border: none;
+  line-height: 1;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.input-field input::placeholder {
+  color: #aaa;
+  font-weight: 500;
+}
+
+/* .social-text {
+  padding: 0.7rem 0;
+  font-size: 1rem;
+} */
+
+/* .social-media {
+  display: flex;
+  justify-content: center;
+}
+
+.social-icon {
+  height: 46px;
+  width: 46px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0.45rem;
+  color: #333;
+  border-radius: 50%;
+  border: 1px solid #333;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: 0.3s;
+}
+
+.social-icon:hover {
+  color: #4481eb;
+  border-color: #4481eb;
+} */
+
+.btn {
+  width: 150px;
+  background-color: #5995fd;
+  border: none;
+  outline: none;
+  height: 49px;
+  border-radius: 49px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 10px 0;
+  cursor: pointer;
+  transition: 0.5s;
+  
+}
+
+.btn:hover {
+  background-color: #4d84e2;
+}
+/* already have an account */
+.bottom {
+  
+  color: black;
+}
+
+.login {
+  color: #002efd;
+}
+
